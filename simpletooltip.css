@@ -1,0 +1,45 @@
+.simpletooltip{
+	background: #f7a524; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f7a524 0%, #e27b1d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7a524), color-stop(100%,#e27b1d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f7a524 0%,#e27b1d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f7a524 0%,#e27b1d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f7a524 0%,#e27b1d 100%); /* IE10+ */
+	background: linear-gradient(top,  #f7a524 0%,#e27b1d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a524', endColorstr='#e27b1d',GradientType=0 ); /* IE6-9 */
+	
+	-webkit-box-shadow:  1px 1px 6px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+	
+	-webkit-border-radius: 2px;
+	border-radius: 4px;
+	
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	
+	border: 1px solid #f7a524;
+	bottom: -32px;
+	color: #FFF;
+	font: 11px/1.4 Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	left: 50%;
+	margin-left: -50px;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	text-indent: 0;
+	width: 100px; 
+	z-index: 50;
+	}
+
+.simpletooltip:before{
+	background: url(speaktop.png) top left no-repeat;
+	content : ".";
+	height: 5px;
+	left: 50%;
+	margin-left: -5px;
+	position: absolute;
+	text-indent:-9999px;
+	top: -5px;
+	width: 10px;
+	}
